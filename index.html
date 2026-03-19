@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WrenchLog | Maintenance Tracking Without the Spreadsheet Drift</title>
+    <title>WrenchLog | Keep Your DIY Garage Organized</title>
     <meta
       name="description"
-      content="WrenchLog is a Dockerized maintenance tracker for people, vehicles, and equipment with project photos, maintenance history, and RockAuto lookup built in."
+      content="WrenchLog helps you keep track of vehicles, equipment, maintenance history, photos, and parts research so your DIY garage stays organized."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,7 +30,7 @@
           <div class="nav-links">
             <a href="#features">Features</a>
             <a href="#workflow">Workflow</a>
-            <a href="#deploy">Deploy</a>
+            <a href="#benefits">Benefits</a>
             <a class="button button-ghost" href="https://github.com/tparenti/wrenchlog" target="_blank" rel="noreferrer">View Repo</a>
           </div>
         </nav>
@@ -38,11 +38,11 @@
         <div class="hero-grid" id="top">
           <section class="hero-copy reveal">
             <p class="eyebrow">GitHub project spotlight</p>
-            <h1>Track maintenance, photos, assignments, and parts in one place.</h1>
+            <h1>Track maintenance, repair projects, photos, and parts in one place.</h1>
             <p class="lede">
-              WrenchLog combines a Flask API, SQLite persistence, and a React UI into a
-              Dockerized app for managing people, vehicles, equipment, service history,
-              and project photos without splitting work across spreadsheets and notes.
+              WrenchLog gives you one place to track vehicles, equipment, maintenance
+              history, project photos, and parts research so your next repair starts with
+              clear records instead of guessing what happened last time.
             </p>
             <div class="hero-actions">
               <a class="button button-primary" href="https://github.com/tparenti/wrenchlog" target="_blank" rel="noreferrer">Explore on GitHub</a>
@@ -50,16 +50,16 @@
             </div>
             <ul class="hero-stats" aria-label="Key product highlights">
               <li>
-                <strong>Single host app</strong>
-                <span>Frontend and API served together on port 5000</span>
+                <strong>Know what was done</strong>
+                <span>Keep service history together instead of scattering notes across apps and paper</span>
               </li>
               <li>
-                <strong>Photo support</strong>
-                <span>Upload and manage project images up to 16 MB per request</span>
+                <strong>Keep visual proof</strong>
+                <span>Save project photos so you can track progress and remember how things went together</span>
               </li>
               <li>
-                <strong>Parts lookup</strong>
-                <span>Read-only RockAuto category and listing lookup from vehicle data</span>
+                <strong>Find parts faster</strong>
+                <span>Look up categories and listings from the vehicle record when it is time to order</span>
               </li>
             </ul>
           </section>
@@ -68,14 +68,14 @@
             <div class="panel-frame">
               <div class="panel-topline">
                 <span class="status-dot"></span>
-                <span>Dockerized workflow</span>
+                <span>Built for real garage work</span>
               </div>
               <div class="panel-highlight">
-                <p>Built for shops, fleets, side projects, and gear you actually need to keep moving.</p>
+                <p>Built for side projects, daily drivers, shop equipment, and all the jobs that get harder when details go missing.</p>
               </div>
               <div class="panel-columns">
                 <div>
-                  <h2>Entities</h2>
+                  <h2>What you can track</h2>
                   <ul>
                     <li>People</li>
                     <li>Vehicles</li>
@@ -83,7 +83,7 @@
                   </ul>
                 </div>
                 <div>
-                  <h2>Operational records</h2>
+                  <h2>What you can keep with them</h2>
                   <ul>
                     <li>Maintenance entries</li>
                     <li>Assignments</li>
@@ -92,10 +92,10 @@
                 </div>
               </div>
               <div class="panel-band">
-                <span>Flask</span>
-                <span>React</span>
-                <span>SQLite</span>
-                <span>Docker Compose</span>
+                <span>Service history</span>
+                <span>Ownership</span>
+                <span>Project photos</span>
+                <span>Parts lookup</span>
               </div>
             </div>
           </aside>
@@ -112,12 +112,12 @@
             <p>
               Asset ownership changes. Equipment moves between people. Photos live in a phone.
               Parts research sits in another tab. WrenchLog puts those threads into one workflow,
-              with a responsive UI and a backend that stays simple to deploy.
+              so you can see the story of a machine without digging through scattered reminders.
             </p>
             <p>
-              The repo is set up for development and image-style deployment, with the frontend and
-              API sharing a single external port so the app behaves like one product instead of a
-              pile of disconnected tools.
+              It is useful when you are juggling multiple projects, sharing tools or vehicles with
+              other people, or trying to remember exactly what was replaced, adjusted, or inspected
+              before the next round of work begins.
             </p>
           </div>
         </section>
@@ -140,23 +140,23 @@
             </article>
             <article class="feature-card reveal reveal-delay-2">
               <span class="feature-index">03</span>
-              <h3>Maintenance history management</h3>
-              <p>Add, edit, and delete maintenance entries to keep service history current instead of reconstructing it later.</p>
+              <h3>Maintenance history that stays usable</h3>
+              <p>Log work as it happens so you know what was serviced, when it was done, and what still needs attention.</p>
             </article>
             <article class="feature-card reveal">
               <span class="feature-index">04</span>
               <h3>Project photo uploads</h3>
-              <p>Attach progress photos on project detail pages with support for common web and camera image formats.</p>
+              <p>Keep before, during, and after photos with the project so teardown details are easier to revisit later.</p>
             </article>
             <article class="feature-card reveal reveal-delay-1">
               <span class="feature-index">05</span>
               <h3>RockAuto lookup from vehicle data</h3>
-              <p>Use stored year, make, and model details to browse engine options, categories, and live part listings.</p>
+              <p>Jump from the vehicle record into part browsing without re-entering the same vehicle details every time.</p>
             </article>
             <article class="feature-card reveal reveal-delay-2">
               <span class="feature-index">06</span>
-              <h3>Responsive UI with theme support</h3>
-              <p>The React frontend is built for desktop and mobile with light and dark themes already included upstream.</p>
+              <h3>Easy to use around the garage</h3>
+              <p>Check records from a desk, a laptop, or a phone while you are standing next to the job in progress.</p>
             </article>
           </div>
         </section>
@@ -164,70 +164,70 @@
         <section class="section workflow-band" id="workflow">
           <div class="section-heading reveal">
             <p class="eyebrow">Workflow</p>
-            <h2>From record creation to parts research.</h2>
+            <h2>From intake notes to the next repair.</h2>
           </div>
           <div class="workflow-grid">
             <article class="workflow-step reveal">
               <span>1</span>
-              <h3>Define the people and assets</h3>
-              <p>Start with the people, vehicles, and equipment you need to keep organized.</p>
+              <h3>Set up the vehicles and gear</h3>
+              <p>Start by listing the machines and equipment you want to keep track of.</p>
             </article>
             <article class="workflow-step reveal reveal-delay-1">
               <span>2</span>
-              <h3>Track who uses what</h3>
-              <p>Assign vehicles and equipment so records stay tied to the right person.</p>
+              <h3>Keep ownership clear</h3>
+              <p>Track who uses what so nothing gets disconnected from the person responsible for it.</p>
             </article>
             <article class="workflow-step reveal reveal-delay-2">
               <span>3</span>
-              <h3>Log work and evidence</h3>
-              <p>Add maintenance entries and project photos to document what changed and when.</p>
+              <h3>Record the work</h3>
+              <p>Save maintenance notes and photos while the details are still fresh.</p>
             </article>
             <article class="workflow-step reveal">
               <span>4</span>
-              <h3>Research replacement parts</h3>
-              <p>Open RockAuto lookup from the vehicle record and move straight into part-category browsing.</p>
+              <h3>Pick up where you left off</h3>
+              <p>Come back later and see the full history before you inspect, diagnose, or order parts.</p>
             </article>
           </div>
         </section>
 
         <section class="section architecture reveal">
           <div class="section-heading">
-            <p class="eyebrow">Stack</p>
-            <h2>Simple architecture, practical deployment.</h2>
+            <p class="eyebrow">Why it helps</p>
+            <h2>Less second-guessing in the middle of a job.</h2>
           </div>
           <div class="architecture-layout">
             <div class="architecture-card">
-              <h3>Backend</h3>
-              <p>Flask with Flask-SQLAlchemy and SQLite keeps the persistence layer straightforward.</p>
+              <h3>Remember the last fix</h3>
+              <p>See past maintenance without trying to piece it together from receipts, texts, and memory.</p>
             </div>
             <div class="architecture-arrow" aria-hidden="true">→</div>
             <div class="architecture-card">
-              <h3>Frontend</h3>
-              <p>React and Vite deliver the app UI, using /api automatically in same-host deployments.</p>
+              <h3>Stay organized across projects</h3>
+              <p>Keep multiple vehicles and pieces of equipment straight when several repairs overlap.</p>
             </div>
             <div class="architecture-arrow" aria-hidden="true">→</div>
             <div class="architecture-card">
-              <h3>Operations</h3>
-              <p>Docker Compose supports a development workflow and an image-only deployment path on port 5000.</p>
+              <h3>Make handoffs easier</h3>
+              <p>Share context with family, coworkers, or anyone else involved without retelling the whole story.</p>
             </div>
           </div>
         </section>
 
-        <section class="section deploy" id="deploy">
+        <section class="section deploy" id="benefits">
           <div class="section-heading reveal">
-            <p class="eyebrow">Run modes</p>
-            <h2>Two clear ways to launch the app.</h2>
+            <p class="eyebrow">Daily wins</p>
+            <h2>Small conveniences that save time in a DIY garage.</h2>
           </div>
           <div class="deploy-grid">
             <article class="deploy-card reveal">
-              <h3>Development mode</h3>
-              <p>Use the compose override to mount source, keep Vite internal, and still reach the whole app through one external port.</p>
-              <code>docker compose up --build</code>
+              <h3>Stop repeating the same research</h3>
+              <p>When your vehicle details and service history are already there, the next maintenance session starts faster.</p>
+              <code>Less rework, more wrenching</code>
             </article>
             <article class="deploy-card reveal reveal-delay-1">
-              <h3>Image-only deployment</h3>
-              <p>Build the frontend into static assets, copy them into the backend image, and serve everything from Flask.</p>
-              <code>docker compose -f docker-compose.yml up --build</code>
+              <h3>Keep projects moving</h3>
+              <p>Photos, notes, assignments, and parts browsing all stay close to the machine you are working on.</p>
+              <code>Fewer missing details</code>
             </article>
           </div>
         </section>
@@ -235,22 +235,22 @@
         <section class="section spotlight reveal">
           <div class="spotlight-copy">
             <p class="eyebrow">Highlights</p>
-            <h2>Built-in details that make the repo more useful than a CRUD demo.</h2>
+            <h2>Useful when your garage is busy and your memory is not enough.</h2>
             <ul class="spotlight-list">
-              <li>Project photos support png, jpg, jpeg, gif, webp, and bmp uploads.</li>
-              <li>Upload size is capped at 16 MB per request for predictable handling.</li>
-              <li>Vehicle detail pages can surface live read-only parts listings through RockAuto lookup.</li>
-              <li>The frontend can override its API base URL with VITE_API_BASE_URL when needed.</li>
+              <li>Keep maintenance notes attached to the exact vehicle or piece of equipment.</li>
+              <li>Use photos to document wear, routing, teardown order, or project milestones.</li>
+              <li>Check who a vehicle or tool is assigned to before you start chasing it down.</li>
+              <li>Look up parts from the vehicle record when you are ready to price out the next repair.</li>
             </ul>
           </div>
           <div class="spotlight-panel">
             <div class="mini-card">
               <p class="mini-label">What you get</p>
-              <strong>Operational memory for machines, people, and projects.</strong>
+              <strong>A cleaner picture of what each machine needs and what has already been done.</strong>
             </div>
             <div class="mini-card accent-card">
               <p class="mini-label">What stands out</p>
-              <strong>Photos and part lookup sit inside the maintenance workflow instead of beside it.</strong>
+              <strong>It treats maintenance like an ongoing story, not a pile of disconnected entries.</strong>
             </div>
           </div>
         </section>
@@ -260,7 +260,7 @@
         <div>
           <p class="eyebrow">Repository</p>
           <h2>WrenchLog</h2>
-          <p>Dockerized maintenance tracking for people, vehicles, and equipment.</p>
+          <p>A better way to keep your DIY garage work organized.</p>
         </div>
         <div class="footer-links">
           <a href="https://github.com/tparenti/wrenchlog" target="_blank" rel="noreferrer">Code</a>
